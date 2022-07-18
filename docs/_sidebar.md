@@ -25,6 +25,7 @@
   * [杂项](content/other/sundry1.md)
   * [iframe](content/other/iframe.md)
   * [文件流下载](content/other/downloadFileStream.md)
+  * [获取自定义响应头信息](content/other/前端获取自定义响应头/responseHeaders.md)
   
   
 * npm

@@ -119,10 +119,29 @@ watch: {
     </div>
 ````
 
+> + props传值
 
-
-
-
+复杂类型默认值要函数返回值
+````
+props:{
+      atomicType: {
+        type: [String, Number],
+        default: 1,
+      },
+      data: {
+        tyep: Array,
+        default: () => {
+          return [];
+        },
+      },
+      column: {
+        tyep: Object,
+        default: () => {
+          return {};
+        },
+      },
+    },
+````
 
 
 
