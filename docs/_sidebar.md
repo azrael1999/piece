@@ -15,17 +15,23 @@
   * 杂记
     * [记录1](content/vue/sundry1.md)
     * [记录2](content/vue/sundry2.md)
-    * [testtxt](content/vue/testtxt.md)
     
+   
     
+* js    
+  * 杂记
+    * [记录1](content/js/sundry1.md)
+   
     
+     
 * other
   * note  
-    * [vue note](content/other/note/vueNote.md)
+    * [vue_note](content/other/note/vueNote.md)
   * [杂项](content/other/sundry1.md)
   * [iframe](content/other/iframe.md)
   * [文件流下载](content/other/downloadFileStream.md)
   * [获取自定义响应头信息](content/other/前端获取自定义响应头/responseHeaders.md)
+  
   
   
 * npm
@@ -37,16 +43,16 @@
   * [npm中的版本号规则](content/npm/npmNode2.md)
 
 
-* jsx
-  * [jsx demo1](content/jsx/jsx.md)  
-  * [jsx demo2](content/jsx/jsx2.md)  
-    
-   
-  
-* echart
-  * [echart demo](content/echart/echart.md) 
-  
-  
+
+* demo
+  * [echart_demo](content/demo/echart/echart.md) 
+  * [jsx_demo1](content/demo/jsx/jsx.md)  
+  * [jsx_demo2](content/demo/jsx/jsx2.md)
+  * [el-table](content/demo/element/el-table.md)
+  * [testtxt](content/demo/testtxt.md)
+
+
+
 * 其他工具
   * [patch-package](content/其他工具/patchPackage.md) 
   * [npx](content/其他工具/npx.md) 

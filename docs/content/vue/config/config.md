@@ -76,7 +76,7 @@ module.exports = {
   devServer: {
     open: true,
     disableHostCheck: true,
-    host: "localhost.huawei.com",
+    host: "localhost.huawwe.com",
     port,
     https: false,
     hotOnly: false,
@@ -105,14 +105,14 @@ module.exports = {
     let fontPublicPath = "/static-fonts";
 
     if(process.env.NODE_ENV === "development") {
-      imgPublicPath = "//localhost.huawei.com:8146/";
-      fontPublicPath = "//localhost.huawei.com:8146/";
+      imgPublicPath = "//localhost.huawwe.com:8146/";
+      fontPublicPath = "//localhost.huawwe.com:8146/";
     }else if(process.env.NODE_ENV === "uat") {
-      imgPublicPath = "//sit.-evaluation-serives.starling.huawei.com/";
-      fontPublicPath = "//sit.-evaluation-serives.starling.huawei.com/";
+      imgPublicPath = "//sit.-evaluation-serives.starling.huawwe.com/";
+      fontPublicPath = "//sit.-evaluation-serives.starling.huawwe.com/";
     }else if(process.env.NODE_ENV === "production") {
-      imgPublicPath = "//rnd.-evaluation-serives.starling.huawei.com/";
-      fontPublicPath = "//rnd.-evaluation-serives.starling.huawei.com/";
+      imgPublicPath = "//rnd.-evaluation-serives.starling.huawwe.com/";
+      fontPublicPath = "//rnd.-evaluation-serives.starling.huawwe.com/";
     }
 
     config.module

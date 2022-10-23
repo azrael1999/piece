@@ -22,7 +22,7 @@ watch: {
 
 **特别注意**
 父组件和子组件的`changeText`方法，都可以改变**父组件**的**text**值;  
-子组件的**text**值不会更新，`inject`只会加载一次，要获取实时更新多值用`props`或者`vuex`;   
+子组件的**text**值不会更新，`inject`只会加载一次，要获取实时更新的值用`props`或者`vuex`;   
 因此注入一般用来传一些常量、整个组件
 ````
 <template>
@@ -92,6 +92,31 @@ watch: {
 ````
 
 
+> + props传值
+
+复杂类型默认值要函数返回值
+````
+props:{
+      atomicType: {
+        type: [String, Number],
+        default: 1,
+      },
+      data: {
+        tyep: Array,
+        default: () => {
+          return [];
+        },
+      },
+      column: {
+        tyep: Object,
+        default: () => {
+          return {};
+        },
+      },
+    },
+````
+
+
 > + class 与 style 绑定
 
 1. 数组，绑定每一项
@@ -118,33 +143,6 @@ watch: {
       </ul>
     </div>
 ````
-
-> + props传值
-
-复杂类型默认值要函数返回值
-````
-props:{
-      atomicType: {
-        type: [String, Number],
-        default: 1,
-      },
-      data: {
-        tyep: Array,
-        default: () => {
-          return [];
-        },
-      },
-      column: {
-        tyep: Object,
-        default: () => {
-          return {};
-        },
-      },
-    },
-````
-
-
-
 
 
 

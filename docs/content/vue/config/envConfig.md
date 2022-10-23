@@ -60,28 +60,28 @@ VUE_APP_APPID_TARGET=prod
 module.exports = {
   ihelp: {
     appId: "evaluation_service",
-    env: "//nkweb-uat.huawei.com",
+    env: "//nkweb-uat.huawwe.com",
   },
   contextPath: "/",
   gateway: {
-    "x-app-id": "com.huawei.ipd.alm.quality",
+    "x-app-id": "com.huawwe.ipd.alm.quality",
     "x-sub-app-id": "evaluation_service",
     contentx: "/evaluation-service",
     
-    "x-multi-consumer-appid": "com.huawei.ipd.alm.quality",
+    "x-multi-consumer-appid": "com.huawwe.ipd.alm.quality",
     "x-multi-consumer-sub-appid": "common_service",
     "x-multi-consumer-context": "/common_service",
     
     services: {
-      "x-app-id": "com.huawei.ipd.alm.quality",
+      "x-app-id": "com.huawwe.ipd.alm.quality",
       "x-sub-app-id": "evaluation_service",
       contentx: "/evaluation-service",
     },
     
-    MasGatewayAddress: "//localhost.huawei.com:8003/quality-gateway/",
+    MasGatewayAddress: "//localhost.huawwe.com:8003/quality-gateway/",
   },
 
-  dtsServiceUrl: "https://ngdts.gamma.tools.huawei.com/DTSPortal/ticket/",
+  dtsServiceUrl: "https://ngdts.gamma.tools.huawwe.com/DTSPortal/ticket/",
 }
 ````
 
@@ -90,28 +90,28 @@ module.exports = {
 module.exports = {
   ihelp: {
     appId: "evaluation_service",
-    env: "//nkweb-uat.huawei.com",
+    env: "//nkweb-uat.huawwe.com",
   },
   contextPath: "/",
   gateway: {
-    "x-app-id": "com.huawei.ipd.alm.quality",
+    "x-app-id": "com.huawwe.ipd.alm.quality",
     "x-sub-app-id": "evaluation_service_prod",
     contentx: "/evaluation-service_prod",
     
-    "x-multi-consumer-appid": "com.huawei.ipd.alm.quality",
+    "x-multi-consumer-appid": "com.huawwe.ipd.alm.quality",
     "x-multi-consumer-sub-appid": "common_service",
     "x-multi-consumer-context": "/common_service",
     
     services: {
-      "x-app-id": "com.huawei.ipd.alm.quality",
+      "x-app-id": "com.huawwe.ipd.alm.quality",
       "x-sub-app-id": "evaluation_service_prod",
       contentx: "/evaluation-service_prod",
     },
     
-    MasGatewayAddress: "//rnd-eval-gateway.starling.huawei.com/eproject-quality-gateway/",
+    MasGatewayAddress: "//rnd-eval-gateway.starling.huawwe.com/eproject-quality-gateway/",
   },
  
-  dtsServiceUrl: "https://ngdts.gamma.tools.huawei.com/DTSPortal/ticket/",
+  dtsServiceUrl: "https://ngdts.gamma.tools.huawwe.com/DTSPortal/ticket/",
 }
 ````
 
