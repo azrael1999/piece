@@ -56,6 +56,7 @@
 * 其他工具
   * [patch-package](content/其他工具/patchPackage.md) 
   * [npx](content/其他工具/npx.md) 
+  * [npm link](content/其他工具/npmLink/npm_link.md) 
   * [本地server](content/其他工具/本地server/本地server.md) 
       
   
