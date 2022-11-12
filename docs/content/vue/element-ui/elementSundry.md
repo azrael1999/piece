@@ -1,4 +1,4 @@
-# vue杂项1
+# element-ui杂项
 
 > + 事件中传递自定义参数
 
@@ -25,7 +25,7 @@
 
 ````
 <div v-for="(item,index) in itemList">
-  <el-select v-model="item.value" @change="((val)=>{changeStatus(val, 'aaaaa')})">
+  <el-select v-model="item.value" @change="val => changeStatus(val, 'aaaaa')">
     <el-option v-for="op in options" 
                :key="op.key" 
                :label="op.label"

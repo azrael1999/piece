@@ -1,5 +1,6 @@
 
 > + 查看源  修改源
+
 ````
 npm config get registry
 #OR

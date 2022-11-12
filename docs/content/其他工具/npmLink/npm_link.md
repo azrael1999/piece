@@ -40,7 +40,7 @@ export * from "./tool/methods";
 在项目目录下运行npm link packageName，packageName可以换成路径（index.js可以省略）  
 需要注意的的是，`packageName`是取自包的公共模块的`package.json`中`name`字段，不是文件夹名称  
 
-为了方便，可以加到项目脚本里  
+为了方便，可以加到项目package.json中的scripts  
   
 ![img](./161816.png)
 

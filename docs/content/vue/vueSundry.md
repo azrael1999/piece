@@ -1,4 +1,4 @@
-# vue杂项2
+# vue杂项
 
 > + vue watch
 
